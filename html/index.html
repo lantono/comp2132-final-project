@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Final Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="../styles/styles.css" rel="stylesheet">
+    <script src="../scripts/script.js" defer></script>
+</head>
+
+<body>
+
+    <div id="wrapper"> 
+        <div id="hangman-container">
+            <h1>Hangman Game <br><span>ft. Unimpressed Cats</span></h1>  
+            <img id="hangman-image" src="../images/C01-100.jpg" alt="Hangman">
+        </div>
+    
+        <div class="game-container">
+            
+            <div id="word-display"></div>
+            
+            <div class="game-text">
+                <p id="hint"></p>
+                <p id="guess-counter">Incorrect guesses: <strong>0/6</strong></p>
+            </div>
+
+            <div id="letters-container"></div>
+        </div>  
+    
+        <div id="modal" class="hidden">
+            <div id="modal-content">
+                <img id="modal-image" src="" alt="popup image">
+                <p id="modal-message"></p>
+                <button id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3>COMP 2132 | Leonni Antono</h3>
+    </footer>    
+</body>
+
+</html>
